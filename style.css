@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(90, 160, 117);
+}
+main{
+    display: grid;
+    gap: 4.2rem;
+    place-items: center;
+    /* min-height: 100vh; */
+}
+ul{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.6rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
